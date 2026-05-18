@@ -75,7 +75,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Ambient Background Glows */
         .glow {
             position: absolute;
             width: 300px;
@@ -105,7 +104,7 @@
     </div>
 
     <script>
-        // 1. Fire Confetti immediately
+        // Fire Confetti immediately
         function celebrate() {
             var duration = 3 * 1000;
             var end = Date.now() + duration;
@@ -132,13 +131,14 @@
             }());
         }
 
-        // 2. Trigger celebration on load
+        // Trigger celebration on load
         window.onload = celebrate;
 
-        // 3. Redirect after 2.5 seconds
+        // Redirect after 2.5 seconds
         setTimeout(function() {
         
-            window.location.href = ""; // You can insert any form link here, and can customize the effects and names above as per your needs. 
+            // window.location.href = ""; // You can insert any form link here, and can customize the effects and names above as per your needs. 
+            window.location.href = "https://github.com/rv-raunak/Dynamic-Form-Gateway";  // This is just for testing purposes you can remove this as per your usage
         }, 2500);
         
         // DEMO LINKS I have used with this code of mine
